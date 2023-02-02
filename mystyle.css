@@ -1,0 +1,1700 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+  /* 
+    font-family: 'Advent Pro', sans-serif;
+    colors
+    #A3BCB6  
+    #39603D
+    #3C403D
+    #DADED4 rgba(218, 222, 212, 1)  η τελευται απαραμετρος 
+    #FFFFFF                         ειναι για την ορατοτητα
+  */
+@media only screen and (min-width: 650px) {      
+      .navig {
+          background-color: #3C403D;
+          width: 100%;
+          display: inline-block;
+          
+      }
+	  
+	  #logo_header{
+		  float: left;
+		  padding: 5px 3em;
+	  }
+        /* --------- Style The Dropdown Button --------- */
+        .dropbtn {
+          background-color: #3C403D;
+          color: #DADED4;
+          width: 155px;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+		  padding: 4px 0;
+          position: relative;
+          display: inline;
+          float: right;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 130px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: #3C403D;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #DADED4}
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          background-color: #3C403D;
+        }
+		/* --------- End of Dropdown Button --------- */
+      
+      
+    
+    
+    /* --------- κανόνες για Index --------- */
+    
+    
+      .container {
+            background-color: #FFFFFF;
+            margin: 10px 0px;
+            padding: 0px;
+            min-width: 400px;
+      }
+	  
+	  .container2 {
+			min-width: 600px;
+			max-width: 1080px;
+			top: 0;
+			margin: auto;
+			padding: 1em 0;
+		}
+		
+				.container3 {
+			/*min-width: 600px;
+			max-width: 1080px;*/
+			top: 0;
+			margin: auto;
+			padding: 1em 0;
+			width: 50%;
+		}
+      
+      .top {
+            padding-top: 2em;
+            background-image: #FFFFFF;
+            background-size:cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+			
+		.centeritem{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+      
+        .centeritemsg{
+            position: absolute;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+    
+
+        .headingmsg{
+            font-size: 0.75em; 
+            text-align: center; 
+            color: #3C403D;}
+    
+    
+        .error_msg{
+            text-align: center;
+            color: red;
+            border: 1px solid black;
+            margin: auto;
+            width: fit-content;
+            padding: 1em;
+            border-radius: 9px;
+            background-color: #DADED4;
+			
+			animation: hideAnimation 0s ease-in 5s;
+			animation-fill-mode: forwards;
+        }
+		@keyframes hideAnimation {
+		  to {
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		  }
+		}
+		
+		.site_msg{
+			text-align: center;
+			color: white;
+			border: 1px solid red;
+			margin: auto;
+			width: -webkit-fill-available;
+			padding: 1em;
+			border-radius: 9px;
+			background-color: #3C403D;
+			bottom: 0%;
+			position: fixed;
+			opacity: .9;
+			z-index: 1;
+		}
+    
+    
+    /* - - - - - - κανόνες για το μενού - - - - */
+      
+      .topmenu {
+        display: inline-flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        }
+      
+      
+      #topmenu,li:hover{
+          opacity: 1;
+      }
+      
+      .liopacity {
+          float:left;
+          padding: 0 10px;
+          background-color: #DADED4;
+          opacity: .66;
+          border-radius: 10px 10px 0 0;
+          }
+      
+      #topmenu,li,a {
+          color: #39603D;
+          text-decoration: none;
+          font-size: 1em;
+      }
+
+      .forma {
+            background-image: url("cars2.jpg");
+			background-size: cover;
+            min-height: 360px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+			/* opacity: .66; */
+			}
+      .forma_field_1 {
+            background-color: rgba(218, 222, 212, 0.8);
+            padding: 0 1em;
+            border-radius: 10px;
+            }
+			
+      .forma_field_2 {
+            font-size: 1.5em;
+            width:10em; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            }
+    
+      .forma_field_3 {
+            background-color: rgba(218, 222, 212, 0.8);
+            padding: 0 1em;
+            border-radius: 10px;
+            max-width: 550px;
+            text-align: justify;
+            padding: 1em;
+            }
+			
+		.forma_field_6 {
+            background-color: rgba(218, 222, 212, 0.8);
+            padding: 0 1em;
+            border-radius: 10px;
+            }
+			
+      .forma_field_7 {
+            font-size: 1.5em;
+            width:10em; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            }
+    
+      
+      
+      main {
+			background-color: #FFFFFF;
+            min-height: 720px;
+			height:auto;
+            margin: auto;
+            padding: 0px;}
+      
+    /* --------- Style For  Slideshow --------- */  
+      
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1300px;
+		  min-height: 720px;
+          position: relative;
+          margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+          color: #adadad;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+
+        .active {
+          background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+/* - - - - - -  κανόνες για τη σελίδα επιλογης  - - - - - - */
+    
+	
+	.dates_select {
+		background-color: #FFFFFF;
+		/*color: #FFFFFF;
+		
+		border: 1px solid #3C403D;*/
+		border-radius: 25px;
+		position: sticky;
+		max-width: 1080px;
+		top: 0;
+		margin: auto;
+		padding: 1em 0;
+		opacity: .9;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+	
+    .select {
+        border-bottom: 1px dotted #3C403D;
+        display: flex;
+		max-width: 1080px;
+		margin: auto;
+		padding: 1em 0;
+
+    }
+    .selectL {
+        width: 48%;
+        float: left;
+    }
+    .selectR {
+        margin: auto;
+        padding-left: 2em;
+        width: 32%;
+        float: right;
+    }
+    
+    .loading{
+		
+		min-height: 360px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+    
+	 .wrongmsg{
+		color: red;
+		font-size: 0.6em;
+	 }
+	
+/* - - - - - -  κανόνες για τη σελίδα login  - - - - - - */	
+    
+    
+    .forma_login{
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 20em;
+        height: 25em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .login_page{
+        padding-top: 7em;
+        background-image: url("images/bgw.png");
+    }
+    
+    .login_table{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;        
+    }
+    
+     /* - - - - - - - - - κανόνες για Index - - - - - - - - - */   
+    
+    .user_conteiner {
+        margin: auto;
+        width: 420px;
+        padding: 7px;
+    }
+    .user_button:hover {
+        background-color: #DADED4   ;
+    }
+    
+    .user_img {
+        margin: 30px 50px;
+    }
+    
+    .user_button{
+        display: inline-block;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        padding: 1em;
+        margin: auto;
+        background-color: #FFFFFF;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    
+    
+    
+    .user_msg{
+        width: 80%;
+        position: absolute;
+    }
+    
+    
+    
+    
+    
+    
+/* - - - - - -  κανόνες για τη σελίδα διαθεσιμότητας οχημάτων / κρατήσεων - - - - - - */
+    
+    
+    /* The switch - the box around the slider */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    /* Hide default HTML checkbox */
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    
+    .bookpage {
+        background-image: url("images/bgg.png");
+        min-height: 600px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* opacity: .66; */
+        }
+    
+    
+    .results {
+        max-width: 100%;
+        margin-top: 200px;
+        position: absolute;
+        height: 445px;
+        overflow: auto;
+        padding: 0 1em;
+    }
+	
+	.results_months {
+        max-width: 100%;
+        margin-top: 200px;;
+        position: absolute;
+        height: 440px;
+        overflow: auto;
+        padding: 0 1em;
+    }
+	
+	.results_months td {
+		width: 2em;
+	}
+
+    .book_result{
+        border: 1px solid #39603D;
+    }
+    
+    .tablehead{ 
+        transform:rotate(-45deg);
+        height: 3em;
+    }
+    
+    
+    #books_table{
+        background-image: url("images/bgw.png");
+        }
+    
+    #books_table tr:nth-child(even){background-color: #f2f2f2;}
+
+    #books_table tr:hover {background-color: #ddd;}
+
+    #books_table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #3C403D;
+      color: white;
+      text-align: center;
+    }
+    
+    #avalaible_table th {
+	  text-align: left;
+      background: rgba(218, 222, 212, 0.66);
+      border-radius: 10px;
+      position: sticky;
+      top: 0; /* Don't forget this, required for the stickiness */
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    }
+    
+    #avalaible_table td {
+        border-radius: 10px;
+    }
+    
+    #books_table td {
+        color: #39603D;
+    }
+    
+/* - - - - - -  κανόνες για τη σελίδα στόλου  - - - - - - */
+    
+      .CarL_ParR{
+        display:inline-flex;
+      }
+		
+	
+
+      .CarL{
+        width:50%;
+        background-color:#FFFFFF;
+        float:left;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+      }
+      .ParR{
+        width:50%;
+        background:rgba(218, 222, 212, 0.5);
+        float:right;
+        color: #3C403D;
+        text-align: justify;
+        padding: 0 1em;
+        font-size: 1.5vmax;
+      }
+
+      .ParL_CarR{
+        display:inline-flex;
+      }
+
+
+      .ParL{
+        width:50%;
+        min-height:300px;
+        background-color:rgba(218, 222, 212, 0.5);
+        float:left;
+        color: #3C403D;
+        text-align: justify;
+        padding: 0 1em;
+		font-size: 1.5vmax;
+		z-index: 1;
+      }
+      .CarR{
+        width:50%;
+        min-height:300px;
+        background-color:#FFFFFF;
+        float:right;
+        color: white;
+		margin-top: auto;
+      }
+    
+      .CarImg{
+        width: 100%;
+		height: auto;
+      }
+    
+    
+    
+    
+/* - - - - - -  κανόνες για τη add/edit car  - - - - - - */
+    .carstab{
+        width: 3em;
+        text-align: center;
+        border: solid 1px red;
+        font-size: 1em;
+        position: relative;
+    }
+    
+/* - - - - - -  κανόνες για τη σελίδα προσφορών  - - - - - - */    
+    #offersbg{
+        background-image: url(cars_.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        min-height: 720px;
+        width: 100%;
+        margin-top:-4px;
+        position: relative;
+    }
+    
+    
+    #offers0{
+        position: absolute;
+        width: 75%;
+        margin: auto;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+    }
+    
+    .sqr{
+        display: none;
+        float: left;
+        width: 25%; 
+        margin: 1em;
+        border-radius: 25px;
+        box-shadow: 2px 4px #D4D4D4;
+        text-align: center;
+        background-image: url(images/bgw.png);
+        padding: 0.5em;
+        font-family:'Advent Pro', sans-serif;
+    }
+    
+    
+/* - - - - - -  τέλος προσφορών  - - - - - - */
+    
+    
+    
+    
+    
+/* - - - - - -  κανόνες για τη σελίδα επικοινωνίας  - - - - - - */
+    
+    
+#contact1 {
+    width: 66%;
+    float: left;
+}
+#contact2 {
+    width: 33%;
+    display: inline-block;
+    margin-left: -5em;
+}
+#contact3 {
+    width: 33%;
+    display: inline-flex;
+    margin-left: -5em;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.contactform { 
+    max-width:420px; 
+    margin: auto; 
+    background-color: white;
+    }
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3C403D;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #DADED4; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+#contact_sub {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#3C403D;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#contact_sub:hover { color:#DADED4; }
+    
+.centertext{
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: -2em 0 3em 0;
+    font-weight:500;
+    font-size:24px;
+}
+    
+    
+    
+    
+    
+/* - - - - - -  κανόνες για footer  - - - - - - */
+    
+    
+  .bottom {
+		background-color: #3C403D;
+		min-height: 150px;
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		}
+    
+    #footerdiv{
+        width: 100%;
+        margin: auto;
+        display: inline-flex;
+    }
+	
+    .footer_li{
+		width: 33%;
+        display: inline-block;}
+    
+	.footer_li ul{
+		list-style-type: none;}
+    
+    .footer_li ul li{
+		font-family: 'Mulish';
+		color: #DADED4;}
+    
+    .footer_li ul li a{
+		color: #DADED4;}
+		
+	.footer_li li ul h2{
+		color: #DADED4;
+	}
+	
+    #footer_line{
+		margin: 0.5em 0;
+		border-top: 1px solid #DADED4;
+	}
+    
+	.clear {
+	 clear: both; } 
+	
+	
+	
+	
+	
+		
+	.footer_p {
+		color: #DADED4;
+		text-align: center;
+		font-size: 0.8em;
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+	}
+}
+
+
+
+  /* - - - - - - - - - - - - - - - - - - - - - - - -   Style for Mobile Phone and Tablet   - - - - - - - - - - - - - - - - - - - - - */
+@media (orientation: portrait), (max-width: 650px) {
+    .navig {
+          background-color: #3C403D;
+          width: 100%;
+          display: inline-block;
+          
+      }
+	  
+	  #logo_header{
+		  float: left;
+		  padding: 10px 0 10px 5px;
+	  }
+        /* --------- Style The Dropdown Button --------- */
+        .dropbtn {
+          background-color: #3C403D;
+          color: #DADED4;
+          width: 155px;
+          padding: 16px;
+          font-size: 1.2em;;
+          border: none;
+          cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          font-size: 1.2em;
+		  padding: 4px 0;
+          position: relative;
+          display: inline;
+          float: right;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          width: 150px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 2;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          text-align: center;
+          color: #3C403D;
+          padding: 8px 4px;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #DADED4}
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          background-color: #3C403D;
+        }
+		/* --------- End of Dropdown Button --------- */
+      
+      
+    
+    
+    /* --------- κανόνες για Index --------- */
+    
+    
+      .container {
+            background-color: #FFFFFF;
+            margin: 10px 0px;
+            padding: 0px;
+      }
+	  
+	  .container2 {
+			/*min-width: 600px;
+			max-width: 1080px;*/
+			top: 0;
+			margin: auto;
+			padding: 1em 0;
+		}
+		
+		.container3 {
+			/*min-width: 600px;
+			max-width: 1080px;*/
+			top: 0;
+			margin: auto;
+			padding: 1em 0;
+			width: fit-content;
+		}
+      
+      .top {
+            padding-top: 2em;
+            background-color: #FFFFFF;
+            background-size:cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+			
+		.centeritem{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 98%;
+		}
+      
+        .centeritemsg{
+            position: absolute;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+    
+        .headingmsg{
+            height: 2em;
+            padding: 0 1em;
+            font-size: 0.75em; 
+            text-align: center; 
+            color: #3C403D;}
+    
+    
+        .error_msg{
+            text-align: center;
+            color: red;
+            border: 1px solid black;
+            margin: auto;
+            width: fit-content;
+            padding: 1em;
+            border-radius: 9px;
+            background-color: #DADED4;
+			
+			animation: hideAnimation 0s ease-in 5s;
+			animation-fill-mode: forwards;
+        }
+		@keyframes hideAnimation {
+		  to {
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		  }
+		}
+        
+        
+		.site_msg{
+			text-align: center;
+			color: white;
+			border: 1px solid red;
+			margin: auto;
+			width: inherit;
+			padding: 1em;
+			border-radius: 9px;
+			background-color: #3C403D;
+			bottom: 0%;
+			position: fixed;
+			opacity: .9;
+			z-index: 1;
+		}
+    
+        .receip{
+            margin: auto;
+            max-width: 100%;
+            border: 1px solid black;
+        }
+    
+    /* - - - - - - κανόνες για το μενού - - - - */
+      
+      .topmenu {
+        display: inline-flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center
+        }
+      
+      
+      #topmenu,li:hover{
+          opacity: 1;
+      }
+      
+      .liopacity {
+          float:left;
+          padding: 0 10px;
+          background-color: #DADED4;
+          opacity: .66;
+          border-radius: 10px 10px 0 0;
+          }
+      
+      #topmenu,li,a {
+          color: #39603D;
+          text-decoration: none;
+          font-size: 1em;
+      }
+
+      .forma {
+            background-image: url("cars2.jpg");
+			background-size: cover;
+            min-height: 360px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+			/* opacity: .66; */
+			}
+      .forma_field_1 {
+			margin-top: 0.5em;
+            font-size: 1.2em;
+            background-color: rgba(218, 222, 212, 0.8);
+            padding: 0.5em 1em;
+            max-width:350px; 
+            border-radius: 10px;
+            }
+			
+      .forma_field_2 {
+            color: black;
+            font-size: 1.5em;
+            width:150px; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            }
+    
+      .forma_field_3 {
+            background-color: rgba(218, 222, 212, 0.8);
+            padding: 0 1em;
+            border-radius: 10px;
+            max-width: 550px;
+            text-align: justify;
+            padding: 1em;
+            }
+    
+      .forma_field_4 {
+            font-size: 1em;
+            width:150px; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            }
+    
+      .forma_field_5 {
+            font-size: 1em;
+            width:49%; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+            }
+			
+		.forma_field_6 {
+			margin-top: 0.5em;
+            font-size: 1.2em;
+            background-color: rgba(218, 222, 212, 0.8);
+            width:40%; 
+            border-radius: 10px;
+            }
+			
+		.forma_field_7 {
+            font-size: 1.5em;
+            width:100%; 
+            background-color: #FFFFFF;
+            border-style: none;
+            border-radius: 10px;
+            border: solid 1px black;
+			text-align: center;
+            }
+    
+      .table_mobile{
+        display: grid;
+      }
+      
+      main {
+			background-color: #FFFFFF;
+            min-height: 400px;
+            margin: auto;
+            padding: 0px;}
+      
+    /* --------- Style For  Slideshow --------- */  
+      
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1300px;
+          position: relative;
+          margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+          color: #adadad;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+
+        .active {
+          background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+/* - - - - - -  κανόνες για τη σελίδα επιλογης  - - - - - - */
+    
+	
+	.dates_select {
+		background-color: #FFFFFF;
+		/*color: #FFFFFF;
+		
+		border: 1px solid #3C403D;*/
+		border-radius: 25px;
+		position: sticky;
+		max-width: 96%;
+		top: 0;
+		margin: auto;
+		padding: 2px;
+		opacity: .9;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+	
+    .select {
+        border-bottom: 1px dotted #3C403D;
+		max-width: 1080px;
+		margin: auto;
+		padding: 1em 0;
+
+    }
+    .selectL {
+        max-width: 96%;
+    }
+    .selectR {
+        margin-left: 25%;
+        width: 50%;
+    }
+    
+    .loading{
+		
+		min-height: 360px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+    
+	 .wrongmsg{
+		color: red;
+		font-size: 0.6em;
+	 }
+	
+/* - - - - - -  κανόνες για τη σελίδα login  - - - - - - */	
+    
+    
+    .forma_login{
+        background-color: #FFFFFF;
+        margin: auto;
+        width: 20em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .login_page{
+        padding: 7em 0;
+        background-image: url("images/bgw.png");
+    }
+    
+    .login_table{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;        
+    }
+    
+     /* - - - - - - - - - κανόνες για Index - - - - - - - - - */   
+    
+    .user_conteiner {
+        margin: auto;
+        width: 100%;
+        padding: 7px 1px;
+    }
+    .user_button:hover {
+        background-color: #DADED4   ;
+    }
+    
+    .user_img {
+        margin: 30px 45px;
+    }
+    
+    .user_button{
+        display: inline-block;
+        text-align: center;
+        height: 170px;
+        width: 49%;
+        margin: auto;
+        background-color: #FFFFFF;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    
+    
+    
+    .user_msg{
+        width: 80%;
+        position: absolute;
+    }
+    
+    
+    
+    
+    
+    
+/* - - - - - -  κανόνες για τη σελίδα διαθεσιμότητας οχημάτων / κρατήσεων - - - - - - */ 
+    
+    /* The switch - the box around the slider */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    /* Hide default HTML checkbox */
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    
+    .bookpage {
+        background-image: url("images/bgg.png");
+        min-height: 600px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* opacity: .66; */
+        }
+    
+    
+    .results {
+        max-width: 100%;
+        margin-top: 10em;
+        position: absolute;
+        height: 440px;
+        overflow: auto;
+        padding: 0 1em;
+    }
+	
+	
+	.results_months {
+        max-width: 100%;
+        margin-top: 13em;
+        position: absolute;
+        height: 440px;
+        overflow: auto;
+        padding: 0 1em;
+    }
+	
+	.results_months td {
+		width: 1.5em;
+	}
+
+    .book_result{
+        border: 1px solid #39603D;
+    }
+    
+    .tablehead{ 
+        transform:rotate(-45deg);
+        height: 3em;
+    }
+    
+    
+    #books_table{
+        background-image: url("images/bgw.png");
+        }
+    
+    #books_table tr:nth-child(even){background-color: #f2f2f2;}
+
+    #books_table tr:hover {background-color: #ddd;}
+
+    #books_table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #3C403D;
+      color: white;
+      text-align: center;
+    }
+    
+    #avalaible_table th {
+	  text-align: left;
+      background: rgba(218, 222, 212, 0.66);
+      border-radius: 10px;
+      position: sticky;
+      top: 0; /* Don't forget this, required for the stickiness */
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    }
+    
+    #avalaible_table td {
+        border-radius: 10px;
+    }
+    
+    #books_table td {
+        color: #39603D;
+    }
+    
+/* - - - - - -  κανόνες για τη σελίδα στόλου  - - - - - - */
+    
+      .CarL_ParR{
+        display:inline-flex;
+      }
+		
+	
+
+      .CarL{
+		z-index: 0;
+		position: absolute;
+        width:100%;
+        background-color:#FFFFFF;
+        float:left;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		max-width: 500px;
+      }
+      .ParR{
+		position: relative;
+		z-index: 1;
+        margin-left:50%;
+        background:rgba(218, 222, 212, 0.7);
+        float:right;
+        color: rgba(0, 0, 0, 1);
+        text-align: justify;
+        padding: 0 1em;
+        font-size: 1.5vmax;
+      }
+
+      .ParL_CarR{
+        display:inline-flex;
+      }
+
+
+      .ParL{
+		position: relative;
+		z-index: 1;
+        width:50%;
+        background-color:rgba(218, 222, 212, 0.7);
+        color: rgba(0, 0, 0, 1);
+        text-align: justify;
+        padding: 0 1em;
+		font-size: 1.5vmax;
+		min-height: 325px;
+      }
+      .CarR{
+		z-index: 0;
+		position: absolute;
+        background-color:#FFFFFF;
+        color: white;
+		margin-top: auto;
+      }
+    
+      .CarImg{
+        width: 100%;
+		height: auto;
+      }
+    
+    
+    
+/* - - - - - -  κανόνες για τη add/edit car  - - - - - - */
+    .carstab{
+        width: 3em;
+        text-align: center;
+        border: solid 1px red;
+        font-size: 1em;
+    }
+    
+    
+    
+/* - - - - - -  κανόνες για προσφορές- - - - - - */    
+
+    #offersbg{
+        background-image: url(cars_.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right; 
+        min-height: 720px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: -16px;
+    }
+    
+    }
+    #offers0{
+        width: 75%;
+        margin: auto;
+        padding-top: 1em;
+    }
+    
+    .sqr{
+        display: none;
+        width: 95%;
+        margin: 1em;
+        border-radius: 25px;
+        box-shadow: 2px 4px #D4D4D4;
+        text-align: center;
+        background-image: url(images/bgw.png);
+        padding: 0.5em;
+        font-family:'Advent Pro', sans-serif;
+    }
+    
+    
+    /* - - - - - -  κανόνες για τη σελίδα επικοινωνίας  - - - - - - */
+    
+#contact0{
+    
+}
+#contact1{
+}
+#contact2{
+    text-align: center;
+}
+#contact3{
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.contactform { 
+    max-width:420px; 
+    margin: auto; 
+    background-color: white;
+    padding: 1em 1em;
+    }
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3C403D;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #DADED4; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+#contact_sub {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#3C403D;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#contact_sub:hover { color:#DADED4; }
+    
+.centertext{
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: -2em 0 3em 0;
+    font-weight:500;
+    font-size:24px;
+}
+    
+    
+    
+    
+    
+    
+    
+    .bottom {background-color: #3C403D;
+            min-height: 150px;
+            margin: 0px;
+            padding: 0px;
+			position: relative;
+			}
+			
+			
+	.footer_li li h2{
+		color: #DADED4;
+		padding-top: 1em;
+		padding-bottom: 0.5em;
+		margin: 0;
+	}
+	
+	.footer_li	{
+		padding: 0;
+		text-align: center;
+	}
+	
+	.footer_li ul{
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	
+	.footer_li ul li{
+		font-family: 'Mulish';
+		color: #DADED4;			
+	}
+	.footer_li ul li a{
+		color: #DADED4;		
+		width: 33%;
+	}
+	
+	#footer_line{
+		margin: auto;
+		border-top: 1px solid #DADED4;
+		width: 50%;
+		padding: 0.3em 0;
+	}
+	
+	#div1{
+		padding-top: 1em;
+		padding-bottom: 4em;
+	}
+	
+	.footer_p {
+		color: #DADED4;
+		text-align: center;
+		font-size: 0.8em;
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+	}
+}
+
+@media print {
+  .dropdown{
+    display:none !important;
+  }
+  
+  .noprint{
+    display:none !important;
+  }
+    
+  .bottom{
+    display:none !important;
+  }
+}
